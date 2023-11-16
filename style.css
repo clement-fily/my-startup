@@ -1,0 +1,202 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    background-color: rgb(20, 49, 81); 
+    color: #fff; 
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+header img {
+    max-width: 150px; 
+    border-radius: 50%; 
+    box-shadow: 0 0 15px 10px rgb(20, 49, 81); 
+    background-color: rgb(20, 49, 81); 
+    padding: 5px; 
+}
+
+
+section {
+    margin: 40px 0;
+    text-align: center; 
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background: #027b7f; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .container {
+        width: 95%;
+    }
+}
+
+.services {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    color: #fff;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+
+.time-to-act {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.time-to-act h2 {
+    margin-bottom: 30px;
+}
+
+.counters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.counters > script {
+    margin: 15px;
+}
+
+
+.btn-services {
+    display: inline-block;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.services-banner {
+    background: url('ecostart-banniere.png') no-repeat center center/cover;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.services-banner h1 {
+    color: #ffffff; 
+    font-size: 2.5rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+.services-banner {
+    background: url('ecostart-banniere.png') no-repeat center center/cover;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.services-banner h1 {
+    color: #ffffff; 
+    font-size: 2.5rem; /
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center; 
+    width: 100%; 
+}
+
+
+
+.services-banner {
+    background: url('images/banniere.png') no-repeat center center/cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.services-banner h1 {
+    color: #ffffff; 
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+.services-banner {
+    position: relative;
+    text-align: center;
+    background: url('ecostart-banniere.png') no-repeat center center/cover;
+    height: 300px; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay h1 {
+    color: white; 
+}
+
+
+
